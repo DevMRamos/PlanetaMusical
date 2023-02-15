@@ -12,9 +12,7 @@
     --cor-secundaria: #22A39F;
     --cor-terciaria: #3C2A21;
     --cor-texto: #F3EFE0;
-
 }
-
 
 * {
     margin: 0;
@@ -29,9 +27,9 @@ body {
 
 .cabecalho {
     display: flex;
-    border: solid 1px red;
     justify-content: center;
     padding: 2%;
+    background-color: #000000;
 }
 
 .cabecalho__menu {
@@ -51,16 +49,14 @@ body {
 }
 
 .principal {
-    border: solid 1px yellow;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
 .principal__conteudo {
-    width: 60%;
+    width: 100%;
     box-sizing: border-box;
-    border: solid 1px green;
     display: flex;
     gap: 20px;
     flex-direction: column;
@@ -81,19 +77,13 @@ body {
     font-family: var(--font-titulo);
 }
 
-.principal__conteudo__texto {
-    display: flex;
-
-}
-
 .principal__imagens {
-    border: solid 1px blueviolet;
     display: flex;
     padding: 2%;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     box-sizing: border-box;
-    
+
 }
 
 .principal__imagens__img {
@@ -103,7 +93,8 @@ body {
 
 .rodape {
     padding: 2%;
-    background-color: #22D;
+    background-color: #000000;
+    font-family: var(--font-menu);
 }
 
 .rodape__texto {
